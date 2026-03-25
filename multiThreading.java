@@ -12,7 +12,7 @@ class Mythread extends Thread {
 
         for (int i = 0; i < 10 ; i++) {
             System.out.println("i am main thread ");
-            Thread.currentThread();
+            Thread.currentThread(); 
         }
     }
 }
